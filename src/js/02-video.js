@@ -6,7 +6,7 @@ import throttle from 'lodash.throttle';
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
 
-console.log(iframe);
+
 
 // player.on('play', function () {
 //     console.log('played the video!');
