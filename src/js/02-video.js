@@ -6,6 +6,7 @@ import throttle from 'lodash.throttle';
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
 
+console.log(iframe);
 
 // player.on('play', function () {
 //     console.log('played the video!');
@@ -25,8 +26,7 @@ player.on('timeupdate', throttle(function () {
     })
         .catch(function (error) { });
 }, 1000),
-    player
-        .setCurrentTime(storage)
+    player.setCurrentTime(storage)
         .then(function (seconds) { })
         .catch(function (error) { })
 
