@@ -1,0 +1,1 @@
+{"mappings":"YAEA,IAAMA,EAAMC,SAASC,cAAc,kBACnCC,QAAQC,IAAIJ,G","sources":["src/js/03-feedback.js"],"sourcesContent":["\n\nconst ggg = document.querySelector('.feedback-form');\nconsole.log(ggg);\n\n\n"],"names":["$b00c40859be242c5$var$ggg","document","querySelector","console","log"],"version":3,"file":"03-feedback.e4ce537e.js.map"}
